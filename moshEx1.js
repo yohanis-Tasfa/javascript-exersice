@@ -1,9 +1,9 @@
-var x = 'red';
-var y = 'blue';
+let x = 'red';
+let y = 'blue';
 
 let t = x
-var x = y
-var y = t
+x = y
+y = t
 
 
 console.log(x)
