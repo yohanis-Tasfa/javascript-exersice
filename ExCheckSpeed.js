@@ -5,7 +5,7 @@ function checkspeed(speed){
     speedLimit = 70;
     speedperpiont = 5;
 
-    if(speed<=speedLimit) 
+    if(speed<=speedLimit + speedperpiont) 
         console.log("ok")
     else{ 
         const points = Math.floor(((speed-speedLimit)/speedperpiont))
@@ -36,4 +36,4 @@ function checkspeed(speed){
     //     console.log("ponit 6")
     // }
 }
-checkspeed(160)
+checkspeed(71)
